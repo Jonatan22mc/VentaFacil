@@ -1,6 +1,8 @@
-// Services/VentaService.cs   (RF-04)
 public class VentaService
 {
+    /// <summary>
+    /// Calcula el total de una venta (RF-04): precio * cantidad.
+    /// </summary>
     public decimal CalcularTotal(decimal precio, int cantidad)
     {
         return precio * cantidad;
