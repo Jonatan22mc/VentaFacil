@@ -4,4 +4,9 @@ public class ClienteService
     {
         return !string.IsNullOrWhiteSpace(nombre);
     }
+
+    public bool DocumentoValido(string documento)
+    {
+        return !string.IsNullOrWhiteSpace(documento);
+    }
 }
