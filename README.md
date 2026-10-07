@@ -1,10 +1,17 @@
-# VentaFacil
-Sistema basico para gestionar clientes, productos y ventas.
+# VentaFácil
+Sistema básico para gestionar clientes, productos y ventas.
 
-## Modulos
+## Módulos
 - Clientes
 - Productos
 - Ventas
 
-## Objetivo
-Facilitar el registro y consulta de operaciones comerciales.
+## Estructura
+- Controllers: coordinación
+- Models: entidades
+- Services: lógica
+- Data: acceso a datos
+- Views: interfaz
+
+## Control de versiones
+El proyecto utiliza Git y GitHub.
